@@ -1,8 +1,8 @@
 {%set name = "docx2txt" %}
-{%set version = "0.6" %}
+{%set version = "0.7" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "24740c6574c5e483afc589206df4ab493b2495d4ae07f1ccb6125e5b8bfe1338" %}
+{%set hash_val = "335363e5eb827dde2838fae69f5032b9a5c00f311def4022c196424bce697f0f" %}
 {%set build_num = "0" %}
 
 package:
@@ -15,7 +15,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: {{ build_num }}
+  number: 0
   script: python setup.py install
 
 requirements:
