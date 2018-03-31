@@ -14,9 +14,7 @@ Summary: A pure python-based utility to extract text and images from docx files.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/docx2txt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/docx2txt-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/docx2txt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/docx2txt-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/docx2txt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/docx2txt-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/docx2txt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/docx2txt-feedstock)
 
 Current release info
 ====================
