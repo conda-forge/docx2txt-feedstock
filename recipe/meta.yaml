@@ -29,9 +29,7 @@ requirements:
 test:
   imports:
     - docx2txt
-
-  commands:
-    - docx2txt -h
+    
 
 about:
   home: https://github.com/ankushshah89/python-docx2txt
