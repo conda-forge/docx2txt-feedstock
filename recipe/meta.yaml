@@ -1,5 +1,5 @@
 {% set name = "docx2txt" %}
-{% set version = "0.8" %}
+{% set version = "0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/docx2txt-{{ version }}.tar.gz
-  sha256: 2c06d98d7cfe2d3947e5760a57d924e3ff07745b379c8737723922e7009236e5
+  sha256: 18013f6229b14909028b19aa7bf4f8f3d6e4632d7b089ab29f7f0a4d1f660e28
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   host:
